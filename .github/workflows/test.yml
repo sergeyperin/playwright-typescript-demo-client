@@ -20,7 +20,8 @@ jobs:
         run: npm i
 
       - name: run application under test
-        run: npm run dev
+        run: |
+          npm run dev
 
       - name: Install dependencies for automated tests
         run: npm i
