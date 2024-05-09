@@ -24,6 +24,10 @@ jobs:
         with:
           run: |
             npm run dev
+          wait-on: |
+            http://localhost:3000
+            http-get://localhost:3000
+            tcp:localhost:3000
 
       - name: Install dependencies for automated tests
         run: npm i
