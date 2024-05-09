@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noUnusedLocals": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "target": "ESNext",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "baseUrl": "./src",
+        "paths": {}
+    },
+    "include": ["src/**/*"]
+}

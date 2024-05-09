@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="4.559257000000001">
+<testsuite name="src/tests/login.test.ts" timestamp="2024-05-09T20:48:46.572Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="3.387" errors="0">
+<testcase name="Log in tests: › when user credentials are filled and submitted then user is logged in and products page is displayed" classname="src/tests/login.test.ts" time="3.387">
+</testcase>
+</testsuite>
+<testsuite name="src/tests/logout.test.ts" timestamp="2024-05-09T20:48:46.572Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="2.938" errors="0">
+<testcase name="Log out tests: › when user press log out then user is logged out and products page is not displayed, log in is displayed" classname="src/tests/logout.test.ts" time="2.938">
+</testcase>
+</testsuite>
+<testsuite name="src/tests/products.test.ts" timestamp="2024-05-09T20:48:46.572Z" hostname="Chromium" tests="1" failures="0" skipped="0" time="3.201" errors="0">
+<testcase name="Products page tests: › when user is logged in, products table is displayed with detailed information" classname="src/tests/products.test.ts" time="3.201">
+</testcase>
+</testsuite>
+</testsuites>
