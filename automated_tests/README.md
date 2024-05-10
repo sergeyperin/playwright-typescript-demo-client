@@ -43,5 +43,11 @@ npx playwright test
 
 Tests are written to be supported on Chromium. It is limited since it is testing task.
 
+# Tests execution results on CI
+
+You can see the tests are being passed on remote github host using CI workflow on Mac OS.
+
+https://github.com/sergeyperin/tui-task/actions/runs/9023883067
+
 
 
